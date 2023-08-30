@@ -6,7 +6,7 @@ const index = () => {
     return (
         <section className="min-h-[calc(100vh-80px-80px)]">
             <div className="container">
-               home
+               <h1>Home</h1>
             </div>
         </section>
     );
