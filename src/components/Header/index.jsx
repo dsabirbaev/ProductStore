@@ -1,6 +1,6 @@
 
 import { NavLink } from "react-router-dom";
-
+import {Button} from "flowbite-react";
 import "./style.scss";
 
 
@@ -15,7 +15,8 @@ const index = () => {
                         <li><NavLink to="/about">About</NavLink></li>
                         <li><NavLink to="/products">Products</NavLink></li>
                     </ul>
-                    <NavLink to="/login">Login</NavLink>
+                    <Button color="success"><NavLink to="/login">Login</NavLink></Button>
+                    
                 </nav>
             </div>
         </header>

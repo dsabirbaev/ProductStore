@@ -47,10 +47,10 @@ const index = () => {
         <section>
             <div className="container">
                 <div className="py-5">
-                        <h2 className="font-semibold text-center text-xl">Our Products</h2>
+                        <h2 className="font-semibold text-center text-xl mb-5">Our Products</h2>
                         <div className="grid grid-cols-4 gap-y-5">
                             {
-                                state.products.map((item) => {
+                                state.products?.map((item) => {
                                     return <CardProduct key={item.id} case={item}/>
                                 })
                             }
